@@ -103,6 +103,11 @@ body {
     font-weight: bold;
 }
 
+.submit-btn:hover {
+    background: #1E1E1E;
+    color: #F1BC59;
+}
+
 .check-box {
     margin: 30px 10px 30px 0;
 }
@@ -134,4 +139,9 @@ span {
     position: absolute;
     top: 500px;
     left: -30px;
+}
+
+#home-btn:hover {
+    background:#F1BC59;
+    color:#1E1E1E;
 }
