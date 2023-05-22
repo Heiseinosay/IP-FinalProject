@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset = "UTF-8">
+        <title></title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    
+    <body>
+        <div>
+            <div class = "box">
+                <div class = "btn-box">
+                    <div id = "toggle"></div>
+                    <button type = "button" class = "main-btn" onclick = "login() ">Log in</button>
+                    <button type = "button" class = "main-btn" onclick = "register() ">Sign up</button>
+                </div>
+                <div class = "sc-icons">
+                    <img src = "https://img.icons8.com/?size=1x&id=118468&format=png">
+                    <img src = "https://img.icons8.com/?size=512&id=17904&format=png" id = "google">
+                </div>
+                <form id = "login" class = "input">
+                    <input type = "text" class = "input-field" placeholder = "Enter email or username" required>
+                    <input type = "password" class = "input-field" placeholder = "Enter password" required>
+                    <input type = "checkbox" class = "check-box"><span>Remember password?</span></input>
+                <button type = "submit" class = "submit-btn">Log in</button> 
+                </form>
+                <form id = "register" class = "input">
+                    <input type = "text" class = "input-field" size = "30" placeholder = "Enter your username here" maxlength = "50" autofocus required></input>
+                    <input type = "password" class = "input-field" placeholder = "Enter password" autofocus required></input>
+                    <input type = "password" class = "input-field" placeholder = "Confirm password" autofocus required></input>
+                    <input type = "text" class = "input-field"  size = "30" placeholder = "Enter your email here" maxlength = "50" autofocus required></input>
+                    <input type = "checkbox" class = "check-box"><span>I agree to terms & conditions</span></input>
+                    <button type = "submit" class = "submit-btn">Sign up</button> 
+                </form>
+            </div>
+        </div>
+
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("toggle");
+            
+            function register() {
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "100px";
+            }
+            
+            function login() {
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0px";
+            }
+        </script>
+		
+    </body>
+</html>
