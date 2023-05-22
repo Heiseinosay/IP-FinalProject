@@ -36,12 +36,12 @@ a:hover {
 }
 .a{
   margin-top:50px;
-  margin-left:-80px;
+  margin-left:2.5%x;
   height:100px;
   float:left;
 }
 .exercises{
-  margin-left:640px;
+  margin-left:45%;
   margin-top:25px;
   clear:left;
   font-family:var(--font2);
