@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Images/femalebg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    height: 80px;
+}
+
+.logo {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    margin: 10px 0 0 30px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h3 {
+    font-family: var(--font1);
+    font-size: 24px;
+    float: right;
+    margin-left: 20px;
+}
+
+.nav-links {
+    float: right;
+    margin: -80px 100px 0 0;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-links ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: var(--font2);
+    color: var(--black);
+    transition: all 0.2s ease-in-out;
+    padding: 5px 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links ul li a:hover {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    
+}
+
+.container {
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    margin-top: -30px;
+    height: 500px;
+    width: 550px;
+}
+
+.col1 h1 {
+    font-family: var(--font2);
+    font-size: 80px;
+    width: 350px;
+}
+
+.col1 h1 {
+    font-family: var(--font2);
+    font-size: 80px;
+    width: 350px;
+}
+
+.col1 p {
+    font-family: var(--font3);
+    width: 340px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons a button {
+    outline: none;
+    border: none;
+    background-color: var(--black);
+    color: var(--yellow);
+    height: 47px;
+    width: 135px;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.buttons a button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.buttons a i {
+    margin-left: 20px;
+    color: var(--black);
+    padding: 11px 11px;
+    border: 2px solid var(--black);
+    font-size: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.buttons a i:hover {
+    margin-left: 20px;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+/* SECOND COLUMN */
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+}
+
+.col2 h1 {
+    font-family: var(--font2);
+    color: var(--black);
+    font-size: 40px;
+    width: 260px;
+}
+
+.col2 p {
+    font-family: var(--font3);
+    color: var(--black);
+    font-size: 20px;
+    text-align: left;
+    width: 255px;
+}
+
+.exercises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.exercises a {
+    text-decoration: none;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 240px;
+    height: 80px;
+    background-color: var(--black);
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.boxes:hover {
+    background-color: #323232;
+}
+
+.frame {
+    margin-left: 5px;
+    background-color: var(--white);
+    height: 70px;
+    border-radius: 15px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes h3 {
+    color: var(--white);
+    font-family: var(--font2);
+    word-wrap: break-word;
+    margin-left: 10px;
+    width: 160px;
+}
+
+.frame img {
+    width: 80px;
+}
+
+.media {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.media a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.media i {
+    color: #323232;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+
+
