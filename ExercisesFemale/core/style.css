@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Poppins:wght@300;400;700&family=Raleway:wght@400;700&display=swap');
+:root {
+    --yellow: #F1BC59;
+    --yellowHover: #c5902f;
+    --white: #ffffff;
+    --black: #1E1E1E;
+    --grey: #747474;
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Poppins', sans-serif;
+    --font3: 'Raleway', sans-serif;;
+}
+
+html{
+    overflow-x:hidden;
+}
+body{
+  padding:10px;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  background-color:#F2F2F2;
+}
+a{
+  text-decoration:none;
+  color:black
+}
+a:hover {
+  color:black;
+}
+.navigations{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-100px;
+}
+.navigations th{
+  text-align:center;
+}
+.a{
+  margin-top:50px;
+  margin-left:-80px;
+  height:100px;
+  float:left;
+}
+.exercises{
+  margin-left:640px;
+  margin-top:25px;
+  clear:left;
+  font-family:var(--font2);
+}
+table.d{
+  margin-left:70px;
+  border:5px solid #F0F5CE;
+}
+.table2{
+  clear:left;
+  margin-left:500px;
+  margin-top:-520px;
+  border-collapse:collapse;
+}
+.table2 td{
+  padding:10px;
+
+}
+.table2 th{
+  text-align:center;
+}
+h4{ 
+  margin-left:70px;
+  margin-top:50px;
+  background-color:#F0F5CE;
+  display:inline-block; 
+}
+h2{
+  display:inline;
+}
+.table3{
+  box-shadow: 0 0 50px #ccc;
+  margin-top:10px;
+  border-collapse:separate;
+  border-spacing: 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+}
+.table3 th{
+  text-align:center;
+}
+.table3 td{
+  text-align:center;
+  padding:5px;
+}
+.table4{
+  margin-left:20px;
+  margin-top:10px;
+  box-shadow: 0 0 50px #ccc;
+  border-collapse:separate;
+  border-spacing: 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table5{
+  margin-left:20px;
+  margin-top:10px;
+  box-shadow: 0 0 50px #ccc;
+  border-collapse:separate;
+  border-spacing: 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table4 th{
+  text-align:center;
+}
+.table4 td{
+  text-align:center;
+  padding:5px;
+}
+.table5 th{
+  text-align:center;
+}
+.table5 td{
+  text-align:center;
+  padding:5px;
+}
+.recipes{
+  text-align:center;
+  font-family: var(--font2);
+}
+.reps{
+   margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font2);
+}
+.h2{
+	font-family: var(--font2);
+}
+table td{
+	font-family: var(--font3);
+}
+table th{
+	font-family: var(--font2);
+}
