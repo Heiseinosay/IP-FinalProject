@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../../../LandingPage/root.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="search">
+        <img src="../Images/search.png" alt="" />
+        <input type="text" placeholder="Type Something..." />
+        <button id="btn-search">GO</button>
+      </div>
+
+      <div class="arrange">
+        <label for="sort">Sort by: </label>
+        <select name="sort" id="sort">
+          <option value="Latest" selected>Latest</option>
+          <option value="Lowest Calorie">Lowest Calorie</option>
+          <option value="Highes Calorie">Highes Calorie</option>
+        </select>
+      </div>
+    </nav>
+
+    <aside>
+      <div class="logo">
+        <img src="../Images/MUSCLE RECIPE (4).png" alt="" />
+        <h2>MUSCLE RECIPE</h2>
+      </div>
+
+      <div class="categories">
+        <a href="dishes.html"
+          ><div class="boxes box1">
+            <div class="image"><img src="../Images/dish (1).png" alt="" /></div>
+            <h3>Dishes</h3>
+          </div></a
+        >
+        <a href="drinks.html"
+          ><div class="boxes" id="active-category">
+            <div class="image">
+              <img src="../Images/poinsettia (1).png" alt="" />
+            </div>
+            <h3 id="active-food">Drinks</h3>
+          </div></a
+        >
+        <a href="desserts.html">
+          <div class="boxes">
+            <div class="image"><img src="../Images/cake (1).png" alt="" /></div>
+            <h3>Desserts</h3>
+          </div></a
+        >
+        <a href="platter.html"
+          ><div class="boxes">
+            <div class="image">
+              <img src="../Images/fruits (1).png" alt="" />
+            </div>
+            <h3>Platter</h3>
+          </div></a
+        >
+        <a href="snacks.html"
+          ><div class="boxes">
+            <div class="image">
+              <img src="../Images/crisps (1).png" alt="" />
+            </div>
+
+            <h3>Snacks</h3>
+          </div></a
+        >
+      </div>
+    </aside>
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
+
+    <div class="featured">
+      <h1>Featured Recipe</h1>
+      <div class="grid-box">
+        <div class="featured-box fbox1">
+          <img src="../Images/featured1.png" alt="" />
+          <div class="f1content">
+            <h3>Roasted Chicken & Sweet Potatoes</h3>
+            <p>
+              Healthy chicken and sweet potato recipes are always a delicious
+              and reliable choice for dinner.
+            </p>
+            <div class="f1serving">
+              <div class="serve">
+                <br />
+                <h6>Serving</h6>
+                <br />
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="serve" style="margin-left: 50px">
+                <br />
+                <h6>Cooktime</h6>
+                <p><strong>45m</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-box fbox2">
+          <div class="inside-box inside1">
+            <img src="../Images/featured2.png" alt="" />
+            <div class="i1content">
+              <br />
+              <h3>Cottage cheese with fruit and nuts</h3>
+              <div class="i1serving">
+                <div class="serve2">
+                  <h6>Serving</h6>
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="serve2" style="margin-left: 50px">
+                  <h6>Cooktime</h6>
+                  <p><strong>45m</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inside-box inside2">
+            <img
+              src="../Images/bananasmoothie.png"
+              alt=""
+              style="width: 100px"
+            />
+            <div class="i2content">
+              <br />
+              <h3>Banana Mango Smoothie</h3>
+              <div class="i2serving">
+                <div class="serve2" style="margin-top: 10px">
+                  <h6>Serving</h6>
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="serve2" style="margin-left: 50px">
+                  <h6>Cooktime</h6>
+                  <p><strong>10m</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="explore">
+      <div class="filter">
+        <a href="../ExploreRecipe.html" id="activefilter">All</a>
+        <a href="../../index.html" id="sec" onmo>Home</a>
+        <a href="../../BrowseWorkouts/ExploreWorkouts.html" id="third">Workouts</a>
+        <a href="RecipeVideos.html" id="fourth">Videos</a>
+        <br />
+
+        <div class="line">
+          <div class="hr">&nbsp;</div>
+          <div class="hr2" id="hr2" on>&nbsp;</div>
+          <div class="hr3" id="hr3">&nbsp;</div>
+          <div class="hr4" id="hr4">&nbsp;</div>
+          <div class="hr5">&nbsp;</div>
+        </div>
+      </div>
+      <br /><br />
+      <!-------------------------------------HERE---------------------------------------->
+      <div class="explore-box">
+        <div class="row">
+          <div class="col for-margin">
+            <div class="heart">
+              <input
+                type="checkbox"
+                id="liked1"
+                class="liked"
+                name="check1"
+                hidden
+              />
+              <label for="liked1" class="look"
+                ><i class="fa-solid fa-heart"></i
+              ></label>
+            </div>
+            <a href="#">
+              <img src="../Images/foods/bananasmoothie.png" alt=""
+            /></a>
+            <h1>Banana Mango Smoothie</h1>
+            <div class="star">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+
+          <div class="col for-margin">
+            <div class="heart">
+              <input
+                type="checkbox"
+                id="liked2"
+                class="liked"
+                name="check2"
+                hidden
+              />
+              <label for="liked2" class="look"
+                ><i class="fa-solid fa-heart"></i
+              ></label>
+            </div>
+            <a href="#">
+              <img src="../Images/foods/RaspberryIceTea.png" alt=""
+            /></a>
+            <h1>No-Sugar Added Raspberry Iced Tea</h1>
+            <div class="star">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+
+          <div class="col for-margin">
+            <div class="heart">
+              <input
+                type="checkbox"
+                id="liked3"
+                class="liked"
+                name="check3"
+                hidden
+              />
+              <label for="liked3" class="look"
+                ><i class="fa-solid fa-heart"></i
+              ></label>
+            </div>
+            <a href="#">
+              <img src="../Images/foods/StrawberryPineappleSmoothie.png" alt=""
+            /></a>
+            <h1>Strawbertry-Pineapple Smoothie</h1>
+            <div class="star">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col for-margin">
+            <div class="heart">
+              <input
+                type="checkbox"
+                id="liked4"
+                class="liked"
+                name="check4"
+                hidden
+              />
+              <label for="liked4" class="look"
+                ><i class="fa-solid fa-heart"></i
+              ></label>
+            </div>
+            <a href="#">
+              <img src="../Images/foods/BerrySmoothie.png" alt=""
+            /></a>
+            <h1>Berry Smoothie Bowl</h1>
+            <div class="star">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+
+         
+      </div>
+    </div>
+  </body>
+
+  <script>
+    let link1 = document.getElementById("sec");
+    let hr2 = document.getElementById("hr2");
+
+    link1.addEventListener("mouseover", () => {
+      hr2.style = "background-color: #F1BC59;";
+    });
+
+    link1.addEventListener("mouseleave", () => {
+      hr2.style = "background-color: #747474;";
+    });
+
+    let link2 = document.getElementById("third");
+    let hr3 = document.getElementById("hr3");
+
+    link2.addEventListener("mouseover", () => {
+      hr3.style = "background-color: #F1BC59;";
+    });
+
+    link2.addEventListener("mouseleave", () => {
+      hr3.style = "background-color: #747474;";
+    });
+
+    let link3 = document.getElementById("fourth");
+    let hr4 = document.getElementById("hr4");
+
+    link3.addEventListener("mouseover", () => {
+      hr4.style = "background-color: #F1BC59;";
+    });
+
+    link3.addEventListener("mouseleave", () => {
+      hr4.style = "background-color: #747474;";
+    });
+  </script>
+</html>
