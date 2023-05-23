@@ -4,35 +4,65 @@
 		<meta charset = "utf-8">
 		<title>Feedback</title>
 		<link rel="stylesheet" type="text/css" href="feedback.css">
+		
 	</head>
 	<body>
-		<form>
-			<table>
+		<div class = "title">Contact Us</div>
+		<div class = "icons"><a href = "index.html"><img src = "https://i.imgur.com/zAeoO8U.png" title = "Home" alt = "Home"></a></div>
+			<table class  = "form">
+				<form>
+					<tr>
+						<th>
+							<div class = "box_title">
+								<a href = "index.html"><img src = "https://i.imgur.com/l5LOqGF.png" class = "logo"></a>
+								<div class = "sub_title">Muscle Recipe</div>
+							</div>
+						</th>
+						<th class = "sub_title"colspan = "2">Feedback Form</th>
+					</tr>
+					<tr>
+						<td><label for = "Name">Name </label></td>
+						<td colspan = "2"><input type = "text" id = "Name" name = "Name" size = "30" placeholder = "Input your name here"></td>
+					</tr>
+					<tr>
+						<td><label for = "email">Email Address </label></td>
+						<td colspan = "2"><input type = "email" id = "email" name = "email" size = "30" placeholder = "example@mail.com"></td>
+					</tr>
+					<tr>
+						<td><label for = "feedback">Your Feedback</label></td>
+						<td colspan = "2"><textarea id="feedback" name="feedback" rows="10" cols="30" placeholder="Type here your feedback" style="resize:none;"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan = "3"> <input type="reset" id="reset" value="Reset"><a href = "done.html" class = "submit">Submit</a></td>
+					</tr>
+				</form>
+			</table>
+			<table class = "contact">
 				<tr>
-					<th>
-						<div class = "box_title">
-							<img src = "https://i.imgur.com/l5LOqGF.png" class = "logo">
-							<div class = "title">Muscle Recipe</div>
+					<td>
+					<div class = "box_one">
+							<img src = "feedback.png"><br>
+							Leave us a feedback!
+							<div class = "description_one">
+								In this form, you could leave us your thoughts regarding our website, whether it was bad or good. Unfortunately, we do not answer these kinds of forms but we would highly appreciate the feed back that you have sent to us. 
+							</div>
+							<a href = "feedback.html" class = "feed">Proceed</a>
 						</div>
-					</th>
-					<th class = "sub_title"colspan = "2">Feedback Form</th>
+					</td>
 				</tr>
 				<tr>
-					<td><label for = "Name">Name </label></td>
-					<td colspan = "2"><input type = "text" id = "Name" name = "Name" size = "30" placeholder = "Input your name here"></td>
-				</tr>
-				<tr>
-					<td><label for = "email">Email Address </label></td>
-					<td colspan = "2"><input type = "email" id = "email" name = "email" size = "30" placeholder = "example@mail.com"></td>
-				</tr>
-				<tr>
-					<td><label for = "feedback">Your Feedback</label></td>
-					<td colspan = "2"><textarea id="feedback" name="feedback" rows="10" cols="30" placeholder="Type here your feedback" style="resize:none;"></textarea></td>
-				</tr>
-				<tr>
-					<td colspan = "3"> <input type="reset" id="reset" value="Reset"><input type="submit" id="submit" value="Submit"></td>
+					<td>
+						<div class = "box_two">
+							<img src  = "complaint.png"><br>
+							Report an issue/File a complaint
+							<div class = "description_two">
+								If you may have encountered an issue or think that there is something wrong with our website, please let us know so we can resolve the problem that is causing this.
+							</div>
+							<a href = "complaint.html" class = "cmp">Proceed</a>
+						</div>
+					</td>
 				</tr>
 			</table>
-		</form>
+		</div>
 	</body>
 </html>

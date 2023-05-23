@@ -13,34 +13,58 @@ body{
 	background-color: #FFFFF8;
 	margin:0;
 	padding:0;
+	text-align:center;
 }
+
 .logo{
 	height:120px;
 	width:120px;
 }
 .title{
+	font-family:var(--font1);
+	font-size:50px;
+	text-align:center;
+}
+.sub_title{
 	text-align:center;
 	font-family:var(--font2);
+	text-decoration:none;
+	color:var(--black);
 }
 table{
-	
 	margin-top:50px;
 	margin-bottom:50px;
 	border: 1px solid black;
-	margin-left:auto;
-	margin-right:auto;
 	box-shadow: 1px 1px 5px;
+
+}
+.contact,.form{
+	display:inline-block;	
+	justify-content:center;
+	vertical-align:middle;
+	text-align:center;
+}
+.form{
+	padding-top:15px;
+	padding-left:5px;
+	padding-right:5px;
+	height:700px;
+	width:400px
+}
+.contact{
+	height:700px;
+	padding-top:20px;
 	
 }
 th,td{
 	font-family:var(--font2);
 	text-align:center;
 	width:300px;
-	border
+	
 	
 }
 .box_title{
-	
+
 }
 .sub_title{
 	text-align:center;
@@ -48,7 +72,7 @@ th,td{
 }
 input [type=text]{
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px ;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -60,10 +84,13 @@ input[type=submit], input[type=reset]{
 	font-size:20px;
 	font-family:var(--f3);
 	color:var(--black);
-	width:150px;
-	height:100px;
+	width:91px;
+	height:40px;
+	margin-top:15px;
+	margin-bottom:15px;
 	margin-left:50px;
 	margin-right:50px;
+	cursor:pointer; 	
 }
 input[type=submit]:hover, input[type=reset]:hover{
 	color:var(--white);
@@ -71,3 +98,57 @@ input[type=submit]:hover, input[type=reset]:hover{
 	transition: all 0.2s ease-in-out;
 	
 }
+.title2{
+	font-family:var(--font1);
+	font-size:50px;
+	text-align:center;
+}
+
+.box_one{
+	font-family:var(--font2);
+	text-align:center;
+	font-weight:bold;
+	display:inline-block;
+}
+.box_two{
+	font-family:var(--font2);
+	font-weight:bold;
+	
+	text-align:center;
+	display:inline-block;
+}
+.description_one{
+	font-weight:lighter;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:var(--font3);
+	
+}
+.description_two{
+	font-weight:lighter;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:var(--font3);
+}
+.cmp,.feed{
+	background-color:var(--yellow);
+	text-decoration:none;
+	font-weight:lighter;
+	font-size:20px;
+	font-family:var(--f3);
+	color:var(--black);
+	display:inline-block;
+	width:100px;
+	border-radius:20px;
+	margin-top:15px
+	cursor:pointer;
+	
+}
+.cmp:hover,.feed:hover{
+	color:var(--white);
+	background-color:var(--black);
+	transition: all 0.2s ease-in-out;
+	
+}
+.box_one img{height:120px;width:120px;}
+.box_two img{height:120px;width:120px;}

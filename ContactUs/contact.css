@@ -44,6 +44,7 @@ body{
 	font-family:var(--font3);
 }
 .description_two{
+
 	width:300px;
 	font-family:var(--font3);
 }
@@ -61,7 +62,6 @@ body{
 	
 }
 .cmp:hover,.feed:hover{
-	
 	color:var(--white);
 	background-color:var(--black);
 	transition: all 0.2s ease-in-out;
