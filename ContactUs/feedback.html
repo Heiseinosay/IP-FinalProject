@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>Feedback</title>
+		<link rel="stylesheet" type="text/css" href="feedback.css">
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<th>
+						<div class = "box_title">
+							<img src = "https://i.imgur.com/l5LOqGF.png" class = "logo">
+							<div class = "title">Muscle Recipe</div>
+						</div>
+					</th>
+					<th class = "sub_title"colspan = "2">Feedback Form</th>
+				</tr>
+				<tr>
+					<td><label for = "Name">Name </label></td>
+					<td colspan = "2"><input type = "text" id = "Name" name = "Name" size = "30" placeholder = "Input your name here"></td>
+				</tr>
+				<tr>
+					<td><label for = "email">Email Address </label></td>
+					<td colspan = "2"><input type = "email" id = "email" name = "email" size = "30" placeholder = "example@mail.com"></td>
+				</tr>
+				<tr>
+					<td><label for = "feedback">Your Feedback</label></td>
+					<td colspan = "2"><textarea id="feedback" name="feedback" rows="10" cols="30" placeholder="Type here your feedback" style="resize:none;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan = "3"> <input type="reset" id="reset" value="Reset"><input type="submit" id="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

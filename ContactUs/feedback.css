@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Poppins:wght@300;400;700&family=Raleway:wght@400;700&display=swap');
+:root {
+    --yellow: #F1BC59;
+    --yellowHover: #c5902f;
+    --white: #ffffff;
+    --black: #1E1E1E;
+    --grey: #747474;
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Poppins', sans-serif;
+    --font3: 'Raleway', sans-serif;;
+}
+body{
+	background-color: #FFFFF8;
+	margin:0;
+	padding:0;
+}
+.logo{
+	height:120px;
+	width:120px;
+}
+.title{
+	text-align:center;
+	font-family:var(--font2);
+}
+table{
+	
+	margin-top:50px;
+	margin-bottom:50px;
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 1px 1px 5px;
+	
+}
+th,td{
+	font-family:var(--font2);
+	text-align:center;
+	width:300px;
+	border
+	
+}
+.box_title{
+	
+}
+.sub_title{
+	text-align:center;
+	font-family:var(--font2);
+}
+input [type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+	background-color:var(--yellow);
+	text-decoration:none;
+	font-size:20px;
+	font-family:var(--f3);
+	color:var(--black);
+	width:150px;
+	height:100px;
+	margin-left:50px;
+	margin-right:50px;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+	color:var(--white);
+	background-color:var(--black);
+	transition: all 0.2s ease-in-out;
+	
+}
